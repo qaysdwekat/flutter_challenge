@@ -1,0 +1,1 @@
+enum StorageKey { newPrimeDate, lastPrimeDate }
