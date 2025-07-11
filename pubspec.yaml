@@ -30,19 +30,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  json_annotation: ^4.9.0
+  # Network layer 
   dio: 5.8.0+1
+  # Dependency injection 
   get_it: 8.0.3
+  #Local Storage
   shared_preferences: ^2.5.3
+  # Converts a date into a humanized text, you can display something like "now", "an hour ago", "~1y", etc
   timeago: ^3.7.1
+  # Localization pacakge to support DateFormat
   intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # Package to auto generate files for mocks
   build_runner: ^2.4.13
+  # Mock Interfaces to be used in Unit test
   mockito: ^5.4.6
+  # Unit test package.
   test: 1.25.15
+  # Flutter package to support integration test
   integration_test:
     sdk: flutter
 
@@ -94,3 +102,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
